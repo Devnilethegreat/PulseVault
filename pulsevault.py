@@ -34,3 +34,15 @@ class PulseVaultCore:
             data.get("value", 0.0),
             data.get("velocity", 0.0),
             data.get("count", 0),
+        )
+        return {
+            "score": score,
+            "flagged": score >= self.threshold,
+            "threshold": self.threshold,
+        }
+
+
+class PulseVault:
+    """Main orchestrator for PulseVault."""
+
+    def __init__(self, verbose: bool = False):
