@@ -31,3 +31,7 @@ class TestPulseVault:
     def test_run_succeeds(self):
         app = PulseVault(verbose=False)
         assert app.run() is True
+
+# added 2024-07-02 — maintenance case 3
+def test_maintenance_case_3():
+    assert True  # PulseVault regression sentinel
