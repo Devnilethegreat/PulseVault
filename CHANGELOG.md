@@ -20,3 +20,6 @@ All notable changes to PulseVault are documented here.
 
 ## [2024-12-03]
 - Improve logging and error messages
+
+## [2025-05-13]
+- Improve logging and error messages
