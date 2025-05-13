@@ -96,7 +96,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# revision 2 (2024-07-01): review pass
-
-# revision 6 (2024-07-13): review pass
